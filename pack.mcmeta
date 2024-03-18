@@ -1,0 +1,37 @@
+{
+  "pack": {
+    "pack_format": 20,
+	"supported_formats": {
+		"min_inclusive": 16,
+		"max_inclusive": 28
+	},
+    "description": [
+		{
+			"text": "Painterly Continuation Project",
+			"color": "#30ddbe"
+		},
+		{
+			"text": "\nCustomize this Pack!",
+			"color": "gray"
+		}
+	]
+  },
+  "overlays": {
+		"entries": [
+			{
+				"directory": "1-20-3",
+				"formats": {
+					"min_inclusive": 20,
+					"max_inclusive": 28
+					}
+				},
+			{
+				"directory": "1-20-5",
+				"formats": {
+					"min_inclusive": 28,
+					"max_inclusive": 28
+					}
+				}
+			]
+		}
+}
