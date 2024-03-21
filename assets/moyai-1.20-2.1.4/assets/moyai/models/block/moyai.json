@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "moyai:block/moyai_front",
+    "north": "moyai:block/moyai_front",
+    "south": "moyai:block/moyai_back",
+    "east": "moyai:block/moyai_right",
+    "west": "moyai:block/moyai_left",
+    "up": "moyai:block/moyai_top",
+    "down": "moyai:block/moyai_mid"
+  }
+}

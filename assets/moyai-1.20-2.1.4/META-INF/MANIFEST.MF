@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+MixinConfigs: moyai-common.mixins.json,moyai.mixins.json
+
