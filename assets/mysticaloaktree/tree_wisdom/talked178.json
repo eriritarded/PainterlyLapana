@@ -1,7 +1,0 @@
-{
-  "type": "talked_to",
-  "trust_required": 100,
-  "text": [
-    "It is common knowledge that $random_country doesn't exist"
-  ] 
-}

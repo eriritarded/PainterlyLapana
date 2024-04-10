@@ -1,5 +1,0 @@
-{
-  "type": "woken_up",
-  "trust_required": 90,
-  "text": "Greetings $ip"
-}

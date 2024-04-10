@@ -1,5 +1,0 @@
-{
-  "type": "woken_up",
-  "trust_required": 50,
-  "text": "Greetings $player_name"
-}
