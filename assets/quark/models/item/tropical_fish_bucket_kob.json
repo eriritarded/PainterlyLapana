@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:item/tropical_fish_bucket",
-    "textures": {
-        "layer0": "quark:item/tropical_fish_bucket_base",
-        "layer1": "quark:item/tropical_fish_bucket_a",
-        "layer2": "quark:item/tropical_fish_bucket_a_1"
-    }
-}

@@ -1,6 +1,0 @@
-{
-    "parent": "quark:item/crab_bucket",
-    "textures": {
-        "layer0": "quark:item/crab_bucket_green"
-    }
-}

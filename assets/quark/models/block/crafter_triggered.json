@@ -1,9 +1,0 @@
-{
-  "parent": "quark:block/crafter",
-  "textures": {
-    "top": "quark:block/crafter_top_triggered",
-    "south": "quark:block/crafter_south_triggered",
-    "west": "quark:block/crafter_west_triggered",
-    "east": "quark:block/crafter_east_triggered"
-  }
-}
