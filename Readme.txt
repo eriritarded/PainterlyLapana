@@ -14,3 +14,5 @@ Splash texts are a mix of original contributions, fun phrases collected from the
 This pack may be used freely in whole or in part by any owner of Minecraft, and combined with other texture packs, so long as credit is given and no profit or donations are solicited through that person's use of the textures and skins contained within. You don't have to credit anyone if you use it with your youtube videos or promoting your server or things of that nature, but it's appreciated if you do.
 
 Thank you to Rhodox for creating the original Painterly Pack, and of course, a thank you to Mojang for creating such a terribly addictive, endlessly entertaining game!
+
+Quark: Johannes Spinnenschreck
