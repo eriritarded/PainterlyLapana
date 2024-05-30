@@ -1,0 +1,7 @@
+{
+    "entity.earthtojavamobs.moobloom": "Starbloom",
+    "block.earthtojavamobs.buttercup": "Star Flower",
+    "item.earthtojavamobs.moobloom_spawn_egg.desc": "The Starbloom is a beautiful cow adorning itself with yellow starred flowers. You can shear it and if you're lucky you might find a beautiful new star flower.",
+    "block.earthtojavamobs.buttercup.desc": "A small, bright yellow flower? Is that a real star on there?",
+    "text.autoconfig.earthtojavamobs.option.moobloom": "Starbloom",
+}

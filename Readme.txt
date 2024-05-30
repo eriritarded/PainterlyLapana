@@ -15,4 +15,4 @@ This pack may be used freely in whole or in part by any owner of Minecraft, and 
 
 Thank you to Rhodox for creating the original Painterly Pack, and of course, a thank you to Mojang for creating such a terribly addictive, endlessly entertaining game!
 
-Johannes Spinnenschreck - Quark, Nature's Compass, Waystones, Progressive Bosses, 
+Johannes Spinnenschreck - Quark, Nature's Compass, Waystones, Progressive Bosses, Supplementaries, Earth2Java, Waystones, Effective
