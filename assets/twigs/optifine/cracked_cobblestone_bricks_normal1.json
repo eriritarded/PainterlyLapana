@@ -1,0 +1,9 @@
+{
+ "parent": "block/cracked_cobblestone_bricks",
+ "textures": {
+ "particle": "blocks/cracked_cobblestone_bricks1",
+ "bottom": "blocks/cracked_cobblestone_bricks1",
+ "top": "blocks/cracked_cobblestone_bricks1",
+ "side": "blocks/cracked_cobblestone_bricks1"
+ }
+}
