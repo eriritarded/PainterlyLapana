@@ -1,0 +1,37 @@
+{
+  "parent": "hexalia:salt",
+  "criteria": {
+    "use_weather_idol": {
+      "conditions": {
+        "item": {
+          "items": [
+            "hexalia:purifying_salts"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "hexalia:textures/block/willow_log.png",
+    "description": {
+      "translate": "advancements.hexalia.purifying_salts.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "hexalia:purifying_salts"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.hexalia.purifying_salts.title"
+    }
+  },
+  "requirements": [
+    [
+      "use_weather_idol"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,4 @@
+// 1.20.1	2024-11-24T14:02:57.2523577	Tags for minecraft:worldgen/biome mod id hexalia
+9ba87b7d873e1217382ee762f9c64814c7e23e17 data/forge/tags/worldgen/biome/is_swamp.json
+9e2c086bf6e660710d250d703414ef601114f323 data/hexalia/tags/worldgen/biome/has_dreamshrooms.json
+9b6bd1672627b177d1420a042cfaba354104a8ef data/hexalia/tags/worldgen/biome/has_mandrakes.json
