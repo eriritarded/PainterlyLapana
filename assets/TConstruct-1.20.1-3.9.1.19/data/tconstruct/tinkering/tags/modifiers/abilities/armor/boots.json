@@ -1,0 +1,12 @@
+{
+  "values": [
+    "tconstruct:bouncy",
+    "tconstruct:double_jump",
+    "tconstruct:long_fall",
+    "tconstruct:flamewake",
+    "tconstruct:snowdrift",
+    "tconstruct:plowing",
+    "tconstruct:path_maker",
+    "tconstruct:frost_walker"
+  ]
+}

@@ -1,0 +1,21 @@
+intro=Introdução
+melter=Fusão
+moving_fluids=Fluidos em movimento
+casting=Fundição
+materials=Materiais Nivel 2
+
+armor=Equipamento do viajante
+armor.subtext=O Equipamento do Viajante é fabricado usando uma estação de fabricação! Este equipamento não oferece a melhor defesa, mas ainda há muitas oportunidades para melhorar sua armadura! Oh, que coisas divertidas você vai criar?
+
+upgrades=Melhorias
+upgrades.subtext=Ferramentas podem ser aprimoradas com melhorias, embora apenas um número limitado possa ser aplicado a cada ferramenta.
+upgrades.group_general=Gerais
+upgrades.group_harvest=Colheita
+upgrades.group_melee=Arma
+upgrades.group_damage=Dano Bônus
+upgrades.group_armor=Armadura
+
+slotless=Modificador Sem Slots
+slotless.subtext=Estes modificadores não querem slots para serem aplicados, você pode tê-los todos se desejar.
+slotless.group_slotless=Sem Slots
+slotless.group_bonus_upgrades=Melhorias++

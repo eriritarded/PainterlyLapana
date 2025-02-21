@@ -1,0 +1,50 @@
+modLoader="javafml"
+loaderVersion="*"
+issueTrackerURL="https://github.com/SlimeKnights/TinkersConstruct/issues"
+logoFile="logo.png"
+license="MIT"
+
+[[mods]]
+    modId="tconstruct"
+    version="3.9.1.19"
+    displayName="Tinkers' Construct"
+    authors="Slime Knights"
+    description='''
+A little of this, a little of that, a lot of tinkering, and a lot of tools
+    '''
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/tinkers-construct"
+    
+[[dependencies.tconstruct]]
+    modId="forge"
+    mandatory=true
+    versionRange="*"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tconstruct]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.20.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tconstruct]]
+    modId="mantle"
+    mandatory=true
+    versionRange="[1.11.36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tconstruct]]
+    modId="jei"
+    mandatory=false
+    versionRange="[15.20.0.103,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tconstruct]]
+    modId="jsonthings"
+    mandatory=false
+    versionRange="[0.9.9,)"
+    ordering="NONE"
+    side="BOTH"

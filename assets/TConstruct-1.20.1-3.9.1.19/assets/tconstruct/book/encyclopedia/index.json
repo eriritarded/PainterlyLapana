@@ -1,0 +1,132 @@
+[
+  {
+    "name": "intro",
+    "data": "sections/intro.json",
+    "icon": {
+      "item": "minecraft:paper"
+    }
+  },
+  {
+    "name": "tools",
+    "data": "sections/tools.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:pickaxe",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "tconstruct:ui_render#head",
+            "tconstruct:ui_render#handle",
+            "tconstruct:ui_render#extra"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "armor",
+    "data": "sections/armor.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:plate_chestplate",
+        "nbt": {
+          "tic_broken": false,
+          "tic_display": true,
+          "Damage": 0,
+          "tic_materials": [
+            "tconstruct:ui_render#extra",
+            "tconstruct:ui_render#head"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "name": "upgrades",
+    "data": "sections/upgrades.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "nbt": {
+          "slot": "upgrades"
+        }
+      }
+    }
+  },
+  {
+    "name": "defense",
+    "data": "sections/defense.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "nbt": {
+          "slot": "defense"
+        }
+      }
+    }
+  },
+  {
+    "name": "slotless",
+    "data": "sections/slotless.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "nbt": {
+          "slot": "slotless"
+        }
+      }
+    }
+  },
+  {
+    "name": "abilities",
+    "data": "sections/abilities.json",
+    "icon": {
+      "item": {
+        "type": "forge:nbt",
+        "item": "tconstruct:creative_slot",
+        "nbt": {
+          "slot": "abilities"
+        }
+      }
+    }
+  },
+  {
+    "name": "materials_harvest",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:melee_harvest", "detailed": true }},
+    "icon": {
+      "item": "minecraft:stone"
+    }
+  },
+  {
+    "name": "materials_ranged",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:ranged", "detailed": true }},
+    "icon": {
+      "item": "minecraft:bamboo"
+    }
+  },
+  {
+    "name": "materials_armor",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:armor", "detailed": true } },
+    "icon": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  {
+    "name": "materials_skull",
+    "data": "no-load",
+    "extraData": { "tconstruct:material_tier": { "type": "tconstruct:skull", "detailed": true } },
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+{
+    "parent": "minecraft:block/orientable",
+	"credit": "Made with Blockbench by PirateSee",
+	"render_type": "cutout",
+    "computercraft:emissive_texture": "cursor",
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"texture": "#north", "cullface": "north"},
+				"east": {"texture": "#side", "cullface": "east"},
+				"south": {"texture": "#south", "cullface": "south"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#side", "cullface": "west"},
+				"up": {"texture": "#top",   "cullface": "up"},
+				"down": {"texture": "#bottom", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2.9, 5.9, 0.9],
+			"to": [13.1, 13.1, 3.1],
+			"faces": {
+				"north": {"uv": [3.5, 3.5, 13.5, 10.5], "texture": "#cursor", "forge_data": {"block_light": 15, "sky_light": 15}}
+			}
+		},
+		{
+			"from": [13.1, 13.1, 1],
+			"to": [2.9, 5.9, 0],
+			"faces": {
+				"north": {"uv": [3, 10, 13, 3], "texture": "#screen"},
+				"east": {"uv": [2, 3, 3, 10], "texture": "#north"},
+				"west": {"uv": [13, 3, 14, 10], "texture": "#north"},
+				"up": {"uv": [3, 10, 13, 11], "texture": "#north"},
+				"down": {"uv": [3, 10, 13, 11], "texture": "#north"}
+			}
+		}
+	]
+}

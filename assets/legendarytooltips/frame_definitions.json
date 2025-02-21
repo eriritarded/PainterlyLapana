@@ -1,5 +1,36 @@
 {
 	"definitions": [
+		// 0.  Gold frame
+		{
+			"index": 0,
+			"startColor": "20_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922+v64-s32_#FF996922",
+			"endColor": "20_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF996922+v64-s32",
+			"bgStartColor": "#D0996922-v155",
+			"bgEndColor": "#F45A3A1D-v55",
+			"selectors": ["netherite_sword", "netherite_shovel", "netherite_pickaxe", "netherite_axe", "netherite_hoe", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots",
+						  "!epic"]
+		},
+		// 1.  Silver frame
+		{
+			"index": 1,
+			"startColor": "20_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C+v48-s16_#FF697C8C",
+			"endColor": "20_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61+v48-s16",
+			"bgStartColor": "#D0697C8C-v155",
+			"bgEndColor": "#F43A4C61-v65",
+			"selectors": ["diamond_sword", "diamond_shovel", "diamond_pickaxe", "diamond_axe", "diamond_hoe", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots",
+						  "enchanted_book", "turtle_helmet", "tipped_arrow", "spectral_arrow", "!rare"]
+		},
+		// 2.  Copper frame
+		{
+			"index": 2,
+			"startColor": "20_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D+v64-s32_#FF70453D",
+			"endColor": "20_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323+v64-s32",
+			"bgStartColor": "#D070453D-v155",
+			"bgEndColor": "#F4542323-v60",
+			"selectors": ["iron_sword", "iron_shovel", "iron_pickaxe", "iron_axe", "iron_hoe", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots",
+						  "golden_sword", "golden_shovel", "golden_pickaxe", "golden_axe", "golden_hoe", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots",
+						  "%Chainmail", "compass", "clock", "spyglass", "shears", "%Bucket", "lead", "name_tag", "flint_and_steel", "bow", "crossbow", "trident", "shield"]
+		},
 		// 3.  Smoke and flames
 		{
 			"index": 3,
@@ -36,72 +67,88 @@
 			"bgEndColor": "#F4705A87-v120+s35",
 			"selectors": ["%Skull", "wither_rose", "%Obsidian", "respawn_anchor", "%Soul"]
 		},
-		// 7.  Iron plating / machinery
+		// 7.  Purple geometric motif
 		{
 			"index": 7,
-			"startColor": "#FF7D8A91",
-			"endColor": "#FF7D8A91",
-			"bgStartColor": "#F07D8A91-v125+s35",
-			"bgEndColor": "#F47D8A91-v100+s55",
-			"selectors": ["iron_door", "iron_trapdoor", "iron_block", "%Anvil", "%Minecart", "%Rail", "hopper", "observer", "dispenser", "dropper", "%Piston"]
-		},
-		// 8.  Purple geometric motif
-		{
-			"index": 8,
 			"startColor": "#FFA591B6",
 			"endColor": "#FFA591B6",
 			"bgStartColor": "#E4A591B6-v155+s35",
 			"bgEndColor": "#F4A591B6-v145+s35",
 			"selectors": ["%End", "%Purpur", "%Chorus", "%Shulker"]
 		},
-		// 9.  Holy (halo / wings)
+		// 8. LV
+		{
+			"index": 8,
+			"startColor": "#3D3934",
+			"endColor": "#4A4641",
+			"bgStartColor": "#6D6963-v100",
+			"bgEndColor": "#79756F-v80",
+			"selectors": ["^LV", "%LV"]
+		},
+		// 9. MV
 		{
 			"index": 9,
-			"startColor": "15_#FFFFFADB-v20+s35_#FFFFFADB+v30-s20",
-			"endColor": "15_#FFFFDFAD-v20+s35_#FFFFDFAD+v30-s20",
-			"bgStartColor": "#D8FFFADB-v245",
-			"bgEndColor": "#F4FFDFAD-v210+s90",
-			"selectors": ["elytra", "%Glow", "totem_of_undying", "experience_bottle", "golden_carrot", "golden_apple", "enchanted_golden_apple"]
+			"startColor": "#FF446265-v25",
+			"endColor": "#FF8FB7CC-v30",
+			"bgStartColor": "#446265-v100",
+			"bgEndColor": "#F88FB7CC-v75",
+			"selectors": ["^MV", "%MV"]
 		},
-		// 10.  Deep Dark
+		// 10. HV
 		{
 			"index": 10,
-			"startColor": "30_#05625D_#29DFEB",
-			"endColor": "#052E37",
-			"bgStartColor": "30_#052A32_#111B21",
-			"bgEndColor": "#0D1217",
-			"selectors": ["%Sculk", "reinforced_deepslate", "echo_shard", "recovery_compass", "disc_fragment_5"]
+			"startColor": "#FF737383-v25",
+			"endColor": "#FFEAEAFA-v30",
+			"bgStartColor": "#737383-v100",
+			"bgEndColor": "#F8EAEAFA-v75",
+			"selectors": ["^HV", "%HV"]
 		},
-		// 0.  Gold frame
+		// 11. EV
 		{
-			"index": 0,
-			"startColor": "20_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922_#FF996922+v64-s32_#FF996922",
-			"endColor": "20_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF5A3A1D_#FF996922+v64-s32",
-			"bgStartColor": "#D0996922-v155",
-			"bgEndColor": "#F45A3A1D-v55",
-			"selectors": ["netherite_sword", "netherite_shovel", "netherite_pickaxe", "netherite_axe", "netherite_hoe", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots",
-						  "!epic"]
+			"index": 11,
+			"startColor": "#FF6B5F70-v25",
+			"endColor": "#FFB392BE-v30",
+			"bgStartColor": "#6B5F70-v100",
+			"bgEndColor": "#F8B392BE-v75",
+			"selectors": ["^EV", "%EV"]
 		},
-		// 1.  Silver frame
+		// 12.  IV
 		{
-			"index": 1,
-			"startColor": "20_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C_#FF697C8C+v48-s16_#FF697C8C",
-			"endColor": "20_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61_#FF3A4C61+v48-s16",
-			"bgStartColor": "#D0697C8C-v155",
-			"bgEndColor": "#F43A4C61-v65",
-			"selectors": ["diamond_sword", "diamond_shovel", "diamond_pickaxe", "diamond_axe", "diamond_hoe", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots",
-						  "enchanted_book", "turtle_helmet", "tipped_arrow", "spectral_arrow", "!rare"]
+			"index": 12,
+			"startColor": "#FF415287-v25",
+			"endColor": "#FF415287-v30",
+			"bgStartColor": "#0A121F-v100",
+			"bgEndColor": "#F8415287-v80",
+			"selectors": ["^IV", "%IV"]
 		},
-		// 2.  Copper frame
+		// 13. LUV
 		{
-			"index": 2,
-			"startColor": "20_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D_#FF70453D+v64-s32_#FF70453D",
-			"endColor": "20_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323_#FF542323+v64-s32",
-			"bgStartColor": "#D070453D-v155",
-			"bgEndColor": "#F4542323-v60",
-			"selectors": ["iron_sword", "iron_shovel", "iron_pickaxe", "iron_axe", "iron_hoe", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots",
-						  "golden_sword", "golden_shovel", "golden_pickaxe", "golden_axe", "golden_hoe", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots",
-						  "%Chainmail", "compass", "clock", "spyglass", "shears", "%Bucket", "lead", "name_tag", "flint_and_steel", "bow", "crossbow", "trident", "shield"]
+			"index": 13,
+			"startColor": "#FF755279-v25",
+			"endColor": "#FF755279-v30",
+			"bgStartColor": "#2B0B15-v100",
+			"bgEndColor": "#F8755279-v75",
+			"selectors": ["^LuV", "%LuV"]
+		},
+		// 14. ZPM
+		{
+			"index": 14,
+			"startColor": "#FF41305C-v25",
+			"endColor": "#FF9386A8-v30",
+			"bgStartColor": "#09080D-v100",
+			"bgEndColor": "#F82E2931-v75",
+			"selectors": ["^ZPM", "%ZPM"]
+		},
+		// 15. UV
+		{
+			"index": 15,
+			"startColor": "#FF480011-v25",
+			"endColor": "#FFFF0000-v30",
+			"bgStartColor": "#0D2723-v100",
+			"bgEndColor": "#F8246B5E-v75",
+			"selectors": ["^UV", "%UV"]
 		}
+	]
+}
 	]
 }
