@@ -1,0 +1,14 @@
+{
+    "rarity.name.common": "Обычный",
+    "rarity.name.uncommon": "Необычный",
+    "rarity.name.rare": "Редкий",
+    "rarity.name.epic": "Эпический",
+    "rarity.name.legendary": "Легендарный",
+    "rarity.name.mythic": "Мифический",
+    "rarity.name.god": "Божественный",
+    "rarity.element.aqua": "Водный",
+    "rarity.element.wind": "Ветряной",
+    "rarity.element.fire": "Пламенный",
+    "rarity.element.poison": "Отравленный",
+    "rarity.theme.pokemon": "Pokemon"
+}

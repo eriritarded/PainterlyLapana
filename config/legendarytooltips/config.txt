@@ -1,0 +1,20 @@
+https://discord.com/channels/875152314787307520/875158328601362472/1326269076242301011
+
+// Test borders
+        {
+            "image": "legendarytooltips:textures/gui/big_borders_0.png", // Path to image
+            "sizes": {
+                "frameWidth": 128, // Width of border sprite
+                "partSize": 16 // Size of part (corners, top/bottom height etc)
+            },
+            "offsets": {
+                "partOffset": 0, // top/bottom offsets from frame (value can be positive and negative)
+                "cornerOffset": 2 // corners offsets from frame 
+            },
+            "index": 0, // used if image have multiple borders
+            "startColor": "#FF68625A",
+            "endColor": "#FF68625A",
+            "bgStartColor": "#F00C0A0D",
+            "bgEndColor": "#F016120E",
+            "selectors": []
+        }

@@ -1,0 +1,7 @@
+{
+	"pack": {
+		"pack_format": 34,
+		"description": "A pre-configured collection for the Legendary Tooltips mod.",
+		"supported_formats": {"min_inclusive": 16, "max_inclusive": 200}
+	}
+}

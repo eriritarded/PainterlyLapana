@@ -1,0 +1,14 @@
+{
+    "rarity.name.common": "Common",
+    "rarity.name.uncommon": "Uncommon",
+    "rarity.name.rare": "Rare",
+    "rarity.name.epic": "Epic",
+    "rarity.name.legendary": "Legendary",
+    "rarity.name.mythic": "Mythic",
+    "rarity.name.god": "God",
+    "rarity.element.aqua": "Aqueous",
+    "rarity.element.wind": "Windy",
+    "rarity.element.fire": "Flaming",
+    "rarity.element.poison": "Poisoned",
+    "rarity.theme.pokemon": "Pokemon"
+}
